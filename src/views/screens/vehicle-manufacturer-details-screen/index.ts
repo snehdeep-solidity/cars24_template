@@ -1,0 +1,1 @@
+export {VehicleManufacturerDetailsScreen} from "./vehicle-manufacturer-details.screen"

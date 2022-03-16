@@ -9,7 +9,17 @@ module.exports = {
     options: {
       "name": "images",
       "path": "./src/images/"
+
     },
     __key: "images"
+  },
+  {
+    resolve: `gatsby-source-strapi`,
+    options: {
+      apiURL: `http://localhost:1337`,
+      queryLimit: 1000, // Defaults to 100
+      collectionTypes: [`cars`],
+    },
   }]
 };
+

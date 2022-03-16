@@ -1,0 +1,1 @@
+export {VehicleManufacturerDetails} from "./vehicle-manufacturer-details"

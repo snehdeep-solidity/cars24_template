@@ -1,0 +1,1 @@
+export {ManufacturerFaqs} from "./manufacturer-faq"
